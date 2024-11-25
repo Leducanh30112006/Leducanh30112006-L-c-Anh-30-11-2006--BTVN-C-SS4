@@ -10,7 +10,6 @@ int main() {
     if (chiSoMoi >= chiSoCu) {
         soDien = chiSoMoi - chiSoCu;
 
-        // Tính ti?n di?n d?a trên m?c giá
         if (soDien <= 50) {
             tienDien = soDien * 10000;
         } else if (soDien <= 100) {
