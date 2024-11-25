@@ -9,7 +9,6 @@ int main() {
     scanf("%d", &chiSoMoi);
     if (chiSoMoi >= chiSoCu) {
         soDien = chiSoMoi - chiSoCu;
-
         if (soDien <= 50) {
             tienDien = soDien * 10000;
         } else if (soDien <= 100) {
